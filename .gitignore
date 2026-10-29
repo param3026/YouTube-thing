@@ -1,0 +1,43 @@
+# Output and cache
+output/
+cache/
+*_qa/
+synth_qa/
+speech_qa/
+caption_test/
+final_qa/
+test_output/
+
+# Test artifacts
+test_input.mp4
+speech_test.mp4
+synth_test.mp4
+speech_test.wav
+*.jpg
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Logs
+*.log
+pipeline.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Whisper model weights (downloaded on first run, not committed)
+*.pt

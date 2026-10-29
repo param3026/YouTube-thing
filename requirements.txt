@@ -1,0 +1,10 @@
+# Core pipeline dependencies
+openai-whisper>=20231117
+yt-dlp>=2024.1.0
+
+# openai-whisper pulls these in, but listed for clarity
+torch>=2.0.0
+numpy>=1.24.0
+
+# Optional: LLM scoring via Ollama REST API (no API key needed)
+# requests>=2.31.0
